@@ -1,0 +1,27 @@
+﻿<Window x:Class="X0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:X0"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btn1" Content="" HorizontalAlignment="Left" Margin="15,13,0,0" VerticalAlignment="Top" Height="135" Width="135" Cursor="Hand" Click="btn_Click"/>
+        <Button x:Name="btn4" Content="" HorizontalAlignment="Left" Margin="15,160,0,0" VerticalAlignment="Top" Height="135" Width="135" Cursor="Hand" Click="btn_Click"/>
+        <Button x:Name="btn2" Content="" HorizontalAlignment="Left" Margin="165,13,0,0" VerticalAlignment="Top" Height="135" Width="135" Cursor="Hand" Click="btn_Click"/>
+        <Button x:Name="btn7" Content="" HorizontalAlignment="Left" Margin="15,309,0,0" VerticalAlignment="Top" Height="135" Width="135" Cursor="Hand" Click="btn_Click"/>
+        <Button x:Name="btn9" Content="" HorizontalAlignment="Left" Margin="315,309,0,0" VerticalAlignment="Top" Height="135" Width="135" Cursor="Hand" Click="btn_Click"/>
+        <Button x:Name="btn6" Content="" HorizontalAlignment="Left" Margin="315,160,0,0" VerticalAlignment="Top" Height="135" Width="135" Cursor="Hand" Click="btn_Click"/>
+        <Button x:Name="btn3" Content="" HorizontalAlignment="Left" Margin="315,13,0,0" VerticalAlignment="Top" Height="135" Width="135" Cursor="Hand" Click="btn_Click"/>
+        <Button x:Name="btn8" Content="" HorizontalAlignment="Left" Margin="165,309,0,0" VerticalAlignment="Top" Height="135" Width="135" Cursor="Hand" Click="btn_Click"/>
+        <Button x:Name="btn5" Content="" HorizontalAlignment="Left" Margin="165,160,0,0" VerticalAlignment="Top" Height="135" Width="135" Cursor="Hand" Click="btn_Click"/>
+        <RadioButton GroupName="1" Content="Начать за X"  HorizontalAlignment="Left" Margin="513,28,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton GroupName="1" Content="Начать за O"  HorizontalAlignment="Left" Margin="513,55,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_1"/>
+        <Button Content="Начать заново" HorizontalAlignment="Left" Margin="516,106,0,0" VerticalAlignment="Top" Height="32" Width="114" Click="Button_Click"/>
+        <RadioButton GroupName="2" Content="сам по себе" HorizontalAlignment="Left" Margin="513,189,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_2"/>
+        <RadioButton GroupName="2" Content="с ботом" HorizontalAlignment="Left" Margin="513,218,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.513,0.52" Checked="RadioButton_Checked_3"/>
+        <GroupBox HorizontalAlignment="Left" Height="89" Header="" Margin="481,8,0,0" VerticalAlignment="Top" Width="164"/>
+        <GroupBox HorizontalAlignment="Left" Height="129" Header="" Margin="469,153,0,0" VerticalAlignment="Top" Width="229"/>
+    </Grid>
+</Window>
